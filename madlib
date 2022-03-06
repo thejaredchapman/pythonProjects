@@ -1,0 +1,17 @@
+#Prompts for inputs
+
+firstName = input("First Name:  ")
+emotion = input("Emotion:  ")
+power = input("Power:  ")
+trauma = input("Trauma:  ")
+public = input("Public Place:  ")
+enemy = input("Enemy Name:  ")
+superhero = input("SuperHero Name:  ")
+
+#Madlib story
+
+madlibs = f"One day {firstName} got {emotion} then {firstName}’s world began to be different. {firstName} was unaware of the {power}’s that were locked inside until. A bull came after them for {trauma} at {public}. This is how {firstName} would show the world his {power}’s and meet the archenemy, {enemy}. After this {firstName} would be known as {superhero}." 
+
+#Return story after inputs received
+
+print(madlibs)
