@@ -1,0 +1,13 @@
+
+import requests as re
+import pandas as pd
+#import matplotlib as plt
+
+
+req = re.get('https://data.cityofchicago.org/api/views/naz8-j4nc/rows.csv')
+url_content = req.content
+
+df = pd.read_csv('rows.csv')
+print(df.head)
+
+
